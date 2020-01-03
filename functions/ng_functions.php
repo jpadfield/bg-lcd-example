@@ -104,7 +104,7 @@ This process will be based on but not necessarily limited too:
 <li>Using PHP and HTML to combine the formatted results and images into simple web-pages.</li>
 </ul>
 
-This example is intended as a basic introduction to these particular resources and some of the techniques currently being used to exploit them.  The resources will remain publicly available for those who wish to continue to work with them. However, this system should be considered as experimental and may be subject to periods of down time. An archive of the code used to create this example presentation can be found <a href="http://rdf.ng-london.org.uk/workshops/code/interface2011_250711.tar.gz">here</a>.<br /><br />
+This example is intended as a basic introduction to these particular resources and some of the techniques currently being used to exploit them.  The resources will remain publicly available for those who wish to continue to work with them. However, this system should be considered as experimental and may be subject to periods of down time. An archive of the code used to create this example presentation can be found <a href="https://github.com/jpadfield/bg-lcd-example">here</a>.<br /><br />
 
 Most recently (2019) this example was refreshed as part of the work carried out in relation to the <a href="https://ahrc.ukri.org/">AHRC</a> funded <a href="https://www.ligatus.org.uk/lcd/">Linked Conservation Data</a> project.
 END;
