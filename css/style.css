@@ -1,0 +1,192 @@
+html { margin: 0; padding: 0; }
+body { font-family: sans-serif; font-size: 100%; margin: 0; padding: 20px 25px;  background: white; }
+
+#header { width: 100%; float: left; clear: left; border-bottom: 2px solid #696; margin: 0 0 1.2em; padding: 0 0 0.3em; }
+#hd_l { width: 80%; float: left;}
+#hd_r {float: right; clear: right;}
+
+#homelink { display: inline; }
+#homelink, #homelink a { color: #666; }
+#homelink a { font-weight: bold; text-decoration: none; }
+#homelink a:hover { color: red; text-decoration: underline; }
+
+h1 { display: inline; font-weight: normal; font-size: 200%; margin: 0; text-align: left; }
+h2 { font-weight: normal; font-size: 124%; margin: 1.2em 0 0.2em; }
+h1, h2 { color: #810; }
+
+.page-resource-uri { font-size: 124%; margin: 0.2em 0; }
+/*.page-resource-uri a { color: black; text-decoration: none; }*/
+.page-resource-uri a:hover { color: red; text-decoration: underline; }
+
+a.sparql-uri { color: black; text-decoration: none; }
+a.sparql-uri:hover { color: red; text-decoration: underline; }
+
+img { border: none; }
+
+#content {width: 100%; float: left; clear: left;}
+
+#footer { width: 100%;float: left; clear: left;border-top: 2px solid #696; margin: 1.2em 0 0; padding: 0.3em; background-color: #fff;}
+#ft_r { float: right; clear: right;}
+#ft_t { text-align: center; }
+#ft_b { text-align: center; margin-top: 0.7ex }
+
+table.description { border-collapse: collapse; clear: left; font-size: 100%; margin: 0 0 1em; width: 100%; }
+table.description th { background: white; text-align: left; }
+table.description td, table.description th { line-height: 1.2em; padding: 0.2em 0.4em; vertical-align: top; }
+table.description ul { margin: 0; padding-left: 0em; }
+table.description li { list-style-type: square; }
+
+.uri { white-space: nowrap; }
+.uri a, a.uri { text-decoration: none; }
+.unbound { color: #888; }
+
+table.description a small { font-size: 100%; color: #55a; }
+table.description small { font-size: 100%; color: #666; }
+table.description .property { white-space: nowrap; padding: 0.2em 1em 0.2em 0.2em ; }
+table.description .odd td { background: #D2E0E6;}/*#d4f6d4; }*/
+table.description .even td { background: #F8F7F4;} /*#f0fcf0; }*/
+
+.image { background: white; float: left; margin: 0 1.5em 1.5em 0; padding: 2px; }
+
+a.expander { text-decoration: none; }
+
+/**********************************************************************/
+font.about, font.about-black, font.red
+	{font-weight: normal; font-size: 124%; color: #810;}
+font.about-black
+	{color: black;}
+font.resource  { color: black; font-weight: bold; } 
+font.red 	{font-size: 100%;}
+
+font.lv1, font.lv2, font.lv3
+	{font-weight: bold; font-size: 115%; color: black;}
+font.lv2
+	{color: #810;}
+font.lv3
+	{font-size: 105%;}
+
+font.alias { color: #00607D; } 
+
+p.details
+	{margin: 5px 0 0 0; padding: 0; line-height:150%;}
+	
+a.bn
+	{font-weight: normal; color: #666666; text-decoration: none;}
+font.ltext
+	{font-weight: normal; color: #666666;}
+	
+table.qresults, table.normvc
+	{	
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	}	
+	
+table.normvc
+	{vertical-align: middle;}
+	
+table.qtext, table.grey, div.qtext
+	{	
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	border: 1px solid #EEE;
+	background: #F8F7F4;
+	}
+	
+div.qtext
+	{
+	border: 2px solid #EEE;
+	background: white;
+	overflow: auto;
+	padding: 10px;
+	height: 400px;
+	}
+
+table.qresults tr td	
+	{vertical-align: top;}
+	
+textarea.qresults
+	{
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;	
+	}
+	
+div.qresults
+	{
+  position: relative;
+	height: 292px;
+	width: 100%;	
+  overflow: auto;	
+	border: 1px solid black;
+	background: white;
+	}
+	
+div.targetframe {
+	width: 600px; height: 400px;
+  position: relative;
+}
+
+div.pageGrid {
+  margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding: 0px;
+  left: 0px; top: 0px;
+	width: 502px;
+  background: #FBFAF6;
+  overflow: hidden;
+	border: 1px solid #333;
+	}	
+		
+div.pageGrid ul{		
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	}
+
+div.pageGrid li{
+  position: relative;
+  width: 100px;
+  float: left;
+	}
+	
+div.tt {
+  position: relative;
+  margin: 0px;
+  background: #1D1E20;
+	width: 100%;
+	height: 100%;
+  border: 1px solid #333;
+}
+
+p.justc {
+  text-align: justify;
+	font-size: 95%;
+	margin: 0px 15px 0px 25px;
+	padding: 0px 0px 0px 0px;
+	color: #333;
+  }
+  
+p.just {
+  text-align: justify;
+	margin: 0px 5px 0px 0px;	
+  }
+
+a
+	{color: #4E8CBF;}
+	
+span#insightlogo
+	{
+	font-family: Arial, serif;
+	color: #4E8CBF;
+	font-size: 48px;
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: none;
+	letter-spacing: -4px;
+	background-color: white;
+	}
