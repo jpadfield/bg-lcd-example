@@ -6,3 +6,5 @@ In 2007 the [Raphael Research Resource](https://cima.ng-london.org.uk/documentat
 These web-pages where put together, initially in 2011, as an example of how this SPARQL end-point can be used. In 2019 they where updated to work with [Blazegraph](https://www.blazegraph.com/).
 
 A live example of these pages can be found [here](https://rdf.ng-london.org.uk/workshops/lcd/).
+
+![Example Screenshot](./graphics/LCD%20Blazegraph%20Example.png)
