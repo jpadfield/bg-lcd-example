@@ -8,3 +8,7 @@ These web-pages where put together, initially in 2011, as an example of how this
 A live example of these pages can be found [here](https://rdf.ng-london.org.uk/workshops/lcd/).
 
 ![Example Screenshot](./graphics/LCD%20Blazegraph%20Example.png)
+
+# Acknowledgement
+* This recent work, updating the system and getting it into Github was carried out as part of the H2020 EU project [SSHOC](https://sshopencloud.eu/)
+<img src="https://github.com/jpadfield/bg-lcd-example/blob/master/graphics/sshoc-eu-tag2.png" height="64" alt="SSHOC Grant Info">
